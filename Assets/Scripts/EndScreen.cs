@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -17,6 +15,6 @@ public class EndScreen : MonoBehaviour
 
     public void showFinalScore()
     {
-        finalScoreText.text = "Мои поздравления!\nВаш окончательный счёт: " + scoreKeeper.CalculateScore() + "%"; 
+        finalScoreText.text = "Congratulations!\nYour final score is: " + scoreKeeper.CalculateScore() + "%"; 
     }
 }

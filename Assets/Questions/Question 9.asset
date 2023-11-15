@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754dbb0f12629a54cba54a753c467669, type: 3}
   m_Name: Question 9
   m_EditorClassIdentifier: 
-  question: "\u041A\u0430\u043A\u043E\u043C\u0443 \u0444\u0438\u043B\u043E\u0441\u043E\u0444\u0443
-    \u043F\u0440\u0438\u043D\u0430\u0434\u043B\u0435\u0436\u0438\u0442 \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D\u0438\u0435
-    \"\u044F \u043C\u044B\u0441\u043B\u044E, \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E,
-    \u044F \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044E\"?"
+  question: What is the largest desert in the world?
   answers:
-  - "\u0421\u043E\u043A\u0440\u0430\u0442."
-  - "\u041F\u043B\u0430\u0442\u043E\u043D."
-  - "\u0410\u0440\u0438\u0441\u0442\u043E\u0442\u0435\u043B\u044C."
-  - "\u0414\u0435\u043A\u0430\u0440\u0442."
-  correctAnswerIndex: 3
+  - Sahara Desert
+  - Gobi Desert
+  - Antarctica
+  - Arabian Desert
+  correctAnswerIndex: 2

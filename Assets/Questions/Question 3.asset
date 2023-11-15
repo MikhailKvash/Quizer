@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754dbb0f12629a54cba54a753c467669, type: 3}
   m_Name: Question 3
   m_EditorClassIdentifier: 
-  question: "\u0427\u0442\u043E, \u0441\u043A\u043E\u0440\u0435\u0435 \u0432\u0441\u0435\u0433\u043E,
-    \u0434\u0430\u0451\u0442 \u043E\u0433\u0443\u0440\u0435\u0446, \u0435\u0441\u043B\u0438
-    \u0435\u0433\u043E \u043D\u0435 \u043E\u0442\u0440\u044B\u0432\u0430\u0442\u044C
-    \u043E\u0442 \u0431\u043E\u0442\u0432\u044B?"
+  question: Who wrote the play "Romeo and Juliet"?
   answers:
-  - "\u0421\u0438\u043B\u0443 \u0437\u0435\u043C\u043B\u0438."
-  - "\u041F\u0440\u043E\u0445\u043B\u0430\u0434\u0443."
-  - "\u041D\u0435\u0437\u0430\u0431\u044B\u0432\u0430\u0435\u043C\u044B\u0435 \u0432\u043F\u0435\u0447\u0430\u0442\u043B\u0435\u043D\u0438\u044F."
-  - "\u0416\u0438\u0437\u043D\u0435\u043D\u043D\u0443\u044E \u0441\u0438\u043B\u0443."
+  - William Shakespeare
+  - Jane Austen
+  - Charles Dickens
+  - F. Scott Fitzgerald
   correctAnswerIndex: 0

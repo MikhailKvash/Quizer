@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -69,7 +68,7 @@ public class Quiz : MonoBehaviour
         DisplayAnswer(index);
         SetButtonsState(false);
         timer.CancelTimer();
-        scoreText.text = "Верные ответы: " + scoreKeeper.CalculateScore() + "%";
+        scoreText.text = "Correct answers: " + scoreKeeper.CalculateScore() + "%";
     }
     
     void DisplayAnswer(int index)
@@ -78,7 +77,7 @@ public class Quiz : MonoBehaviour
 
         if (index == currentQuestion.GetCorrectAnswerIndex())
         {
-            questionText.text = "Верно!";
+            questionText.text = "Correct!";
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
             scoreKeeper.IncrementCorrectAnswers();
@@ -87,7 +86,7 @@ public class Quiz : MonoBehaviour
         {
             correctAnswerIndex = currentQuestion.GetCorrectAnswerIndex();
             string correctAnswer = currentQuestion.GetAnswer(correctAnswerIndex);
-            questionText.text = "К сожалению, верный ответ был:\n" + correctAnswer;
+            questionText.text = "Unfortunately, the correct anwser was:\n" + correctAnswer;
             buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
         }

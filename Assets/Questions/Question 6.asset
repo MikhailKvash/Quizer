@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754dbb0f12629a54cba54a753c467669, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  question: "\u041A\u0430\u043A\u043E\u0433\u043E \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0433\u043E
-    \u043D\u0435\u0442 \u0432 \u041A\u0438\u0442\u0430\u0439\u0441\u043A\u043E\u043C
-    \u0437\u043E\u0434\u0438\u0430\u043A\u0435?"
+  question: What is the capital city of Japan?
   answers:
-  - "\u0417\u043C\u0435\u044F."
-  - "\u041A\u043E\u043D\u044C."
-  - "\u0418\u043D\u0434\u044E\u043A."
-  - "\u041A\u0440\u044B\u0441\u0430."
-  correctAnswerIndex: 2
+  - Seoul
+  - Tokyo
+  - Beijing
+  - Bangkok
+  correctAnswerIndex: 1
